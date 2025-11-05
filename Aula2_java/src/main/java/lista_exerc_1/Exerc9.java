@@ -17,7 +17,7 @@ public class Exerc9 {
         System.out.println("E quantos dias?");
         int dias = sc.nextInt();
 
-        int dias_anos= anos * 360;
+        int dias_anos= anos * 365;
         int dias_mes= meses*30;
 
         int dias_vida = dias_anos + dias_mes + dias;
