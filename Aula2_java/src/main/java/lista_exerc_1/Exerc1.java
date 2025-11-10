@@ -1,5 +1,4 @@
-//Faça um programa que solicite dois números inteiros e exiba a soma, subtração,
-// multiplicação e divisão entre eles.
+//Faça um programa que solicite dois números inteiros e exiba a soma, subtração, multiplicação e divisão entre eles.
 
 package lista_exerc_1;
 import java.util.Scanner;
