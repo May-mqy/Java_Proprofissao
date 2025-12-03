@@ -26,6 +26,9 @@ public class Produto {
     private BigDecimal preco;
     //BigDecimal classe para números exatos.
 
+    @Column (name = "img_url")
+    private String ImgUrl;
+
 
     //GETTERS E SETTERS
     public Integer getIdProduto() {
@@ -67,4 +70,8 @@ public class Produto {
     public void setPreco(BigDecimal preco) {
         this.preco = preco;
     }
+
+    public String getImgUrl() {return ImgUrl;}
+
+    public void setImgUrl(String imgUrl) { ImgUrl = imgUrl;}
 }
